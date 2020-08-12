@@ -12,14 +12,14 @@ const win = [
 ]
 const cellElements = document.querySelectorAll('[data-cell]');
 const board = document.getElementById('board');
-const rstrt = document.getElementById('restartB');
-const strt = document.getElementById('restartC');
+const strt = document.getElementById('start');
+const rstrt = document.getElementById('restart');
 let xTurn;
 var xs = 0,os=0,d = 0;
 
 startGame();
-strt.addEventListener('click',rstartGame);
-rstrt.addEventListener('click',startGame);
+rstrt.addEventListener('click',rstartGame);
+strt.addEventListener('click',startGame);
 
 function rstartGame(){
     xs = os = d = 0;
