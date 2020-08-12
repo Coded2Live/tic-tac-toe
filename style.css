@@ -12,10 +12,6 @@
 body{
     margin: auto;
 }
-#restartC{
-    background-color: rgba(red, 0, 0, .8)  !important;
-}
-
 .board{
 
     width: auto;
